@@ -315,7 +315,7 @@ function getStatus() \r\n\
     { \r\n\
       statusText.innerHTML = request.responseText; \r\n\
       if (request.responseText == 'Waiting for image') \r\n\
-        printButton.disabled = true; \r\n\
+        printButton.disabled = false; \r\n\
       else \r\n\
       { \r\n\
         setTimeout(() => \r\n\
